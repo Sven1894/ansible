@@ -3,4 +3,4 @@
     hosts: all
     tasks:
       - name: check free disk space
-        command: "df -H"
+        command: df -H
