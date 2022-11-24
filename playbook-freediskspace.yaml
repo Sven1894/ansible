@@ -6,4 +6,4 @@
         command: "df -H"
         register: space
       - debug:
-        var: space
+          var: space
