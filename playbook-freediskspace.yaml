@@ -1,0 +1,6 @@
+---
+  - name: check free disk space of hosts
+    hosts: all
+    tasks:
+      - name: check free disk space
+        command: "df -H"
