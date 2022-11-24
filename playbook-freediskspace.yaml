@@ -4,3 +4,6 @@
     tasks:
       - name: check free disk space
         command: "df -H"
+        register: space
+      - debug:
+        var: space
